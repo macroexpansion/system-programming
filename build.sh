@@ -1,5 +1,10 @@
 #!/bin/sh
 
+if [ ! -d "bin" ] 
+then
+    mkdir bin
+fi
+
 if [ -d "dist" ] 
 then
     cd dist
